@@ -27,4 +27,4 @@ jobs:
       - name: OWASP ZAP Full Scan
         uses: zaproxy/action-full-scan@v0.5.1
         with:
-          target: https://develop.d28oev20cvjvx2.amplifyapp.com/
+          target: http://localhost/mutillidae/
